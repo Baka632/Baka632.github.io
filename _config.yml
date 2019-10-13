@@ -47,9 +47,9 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             文章
     url:               /example/
-  - title:             About
+  - title:             关于
     url:               /about/
 
 # Add links to the footer.
