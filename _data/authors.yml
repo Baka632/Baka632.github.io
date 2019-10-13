@@ -3,8 +3,8 @@
 # You can change `author1` to your shortname.
 author1:
   # Replace <...> with your own (remove the < >)
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              曾万友
+  email:             stevemc123456@outlook.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -26,10 +26,10 @@ author1:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         jekyllrb
-    github:          qwtel/hydejack
+    # twitter:         jekyllrb
+    github:          Baka632
     # download:        <url>
-    # email:           <mail@domain.tld>
+    email:           stevemc123456@outlook.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -77,7 +77,7 @@ author2:
     Open `_data/authors.yml` to edit this text.
   picture:           https://placehold.it/128x128
   twitter:           <username>
-  github:            <username>
+  github:            Baka632
 
   # Every author can have his/her own accent color and image.
   # This will change the appearance of all pages of this author.

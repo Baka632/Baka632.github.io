@@ -24,12 +24,11 @@ title:                 Live Studio
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-   欢迎
-   这里是曾万友的博客。
+  欢迎来到曾万友的博客
 
 # A shorter description for the sidebar.
 tagline:               >
-  欢迎来到曾万友的博客。
+  欢迎来到曾万友的博客
 
 # A list of keywords for your blog
 keywords:              []
