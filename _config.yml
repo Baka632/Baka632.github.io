@@ -40,8 +40,8 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                曾万友
+  email:               stevemc123456@outlook.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
