@@ -1,7 +1,8 @@
 ---
 layout: post
-title: UWP的亚克力标题栏
-image: /assets/img/About.jpg
+title: UWP的标题栏
+description: >
+ 关于UWP的标题栏
 categories: [uwp]
 ---
 
@@ -37,6 +38,7 @@ UWP的标题栏一般情况下有**五个**元素，分别是：
 	titleBar.InactiveBackgroundColor = Windows.UI.Colors.SeaGreen; //背景色
 	titleBar.ButtonInactiveForegroundColor = Windows.UI.Colors.Gray; //按钮前景色
 	titleBar.ButtonInactiveBackgroundColor = Windows.UI.Colors.SeaGreen; //按钮背景色
+
 设置标题栏颜色时需要注意以下几点：
 * 按钮背景颜色不会应用于关闭按钮的悬停和按下状态。 关闭按钮始终对这些状态使用系统定义的颜色。
 * 使用系统后退按钮时，按钮颜色属性会应用于该按钮。
@@ -60,7 +62,9 @@ UWP的标题栏一般情况下有**五个**元素，分别是：
     ApplicationViewTitleBar titleBar = ApplicationView.GetForCurrentView().TitleBar;
     titleBar.ButtonBackgroundColor = Colors.Transparent;
     titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
+
 这个操作不会影响到系统的默认按钮，但是应用标题会受到影响，因此需要使用 CaptionTextBlockStyle 为应用程序标题绘制标题栏的TextBlock。
+
 
 	<TextBlock Text="应用标题" 
                Style="{StaticResource CaptionTextBlockStyle}" 
