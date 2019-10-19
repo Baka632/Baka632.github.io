@@ -1,21 +1,12 @@
 ---
-# This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
-# You can change it to the regular `page` layout if you want.
 layout: about
-
-# The title of the page.
 title: 关于
-
-# Write a short (~150 characters) description of each blog post.
-# This description is used to preview the page on search engines, social media, etc.
 description: >
-  写这个博客主要是写一些技术上的文章，也可能分享一些其他的东西
 
-# You can show the description on the page by deleting this line:
 hide_description: true
-
-# TODO
 image: /assets/img/About.jpg
+menu: true
+order: 2
 ---
 写这个博客主要是写一些技术上的文章，也可能分享一些其他的东西。
 
