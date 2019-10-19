@@ -2,12 +2,12 @@
 # Featured tags need to have the `list` layout.
 layout: list
 # The title of the tag's page.
-title: 杂项
+title: UWP
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: others
+slug: UWP
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  一些与技术无关的话题。
+  关于通用Windows应用(UWP)的文章。
 menu: true
-order: 2
+order: 1
 ---
