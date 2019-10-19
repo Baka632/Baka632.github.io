@@ -4,7 +4,7 @@ title: 一切的开始
 description: >
 
 image: /assets/img/About.jpg
-comments: true
+categories: [post]
 ---
 
 ## 为什么我要开博客
