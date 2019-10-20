@@ -14,8 +14,8 @@ UWP的标题栏一般情况下有**五个**元素，分别是：
 * "最大化"按钮
 * 关闭按钮
 
-如图所示(以"越飞阅读"这个应用为例)
-![1743cfc2-57fa-460e-9ec5-7bf4a90f5a9e.png](https://storage.live.com/items/9EADE23CF2DB11C4!113?authkey=AFS7TPnPU9OPxsk)
+如图所示
+![dc6366cd-faa6-4c6e-a5cf-463e79c70d64.png](https://storage.live.com/items/9EADE23CF2DB11C4!115?authkey=AFS7TPnPU9OPxsk)
 这是一般的标题栏，但是，这种标题栏看起来不是很美观，所以我们要改变它！
 
 # 标题栏简单的颜色自定义
