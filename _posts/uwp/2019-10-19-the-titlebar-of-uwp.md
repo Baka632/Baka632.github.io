@@ -3,7 +3,7 @@ layout: post
 title: UWP的标题栏
 description: >
  关于UWP的标题栏
-categories: [uwp]
+categories: [UWP]
 ---
 
 # UWP的标题栏
