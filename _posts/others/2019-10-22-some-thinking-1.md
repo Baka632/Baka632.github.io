@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一切的开始
+title: 一些杂想(1)
 image: /assets/img/Star-Boats.jpg.jpg
 categories: [others]
 ---
