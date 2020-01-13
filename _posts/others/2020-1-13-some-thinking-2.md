@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一些杂想(2)
-image: https://p2.music.126.net/khXzng9RYiFCOIKDepwx7w==/944480488284659.jpg?param=400y400
+image: /assets/img/no-border-between-us.PNG
 categories: [others]
 ---
 Touch me, I want you to feel my touch
@@ -17,7 +17,6 @@ Beautiful, cover you, with my touch
 欣赏:
 <iframe 
     frameborder="no" 
-    border="0" 
     marginwidth="0" 
     marginheight="0" 
     width=280 
