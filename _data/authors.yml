@@ -3,7 +3,7 @@
 # You can change `author1` to your shortname.
 author1:
   # Replace <...> with your own (remove the < >)
-  name:              曾万友
+  name:              Baka632
   email:             stevemc123456@outlook.com
 
   # Used at the bottom of each page and at the top of the `about` layout
@@ -63,7 +63,7 @@ author1:
 
 # Another author
 author2:
-  name:              曾万友
+  name:              Baka632
   email:             stevemc123456@outlook.com
   about:             |
     待补充
