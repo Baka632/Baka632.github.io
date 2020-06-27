@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UWP的标题栏
+title: UWP笔记-标题栏
 description: >
  关于UWP的标题栏
 categories: [UWP]
@@ -16,14 +16,15 @@ UWP的标题栏一般情况下有**五个**元素，分别是：
 
 如图所示
 ![dc6366cd-faa6-4c6e-a5cf-463e79c70d64.png](https://storage.live.com/items/9EADE23CF2DB11C4!115?authkey=AFS7TPnPU9OPxsk)
-这是一般的标题栏，但是，这种标题栏看起来不是很美观，所以我们要改变它！
+这是一般的标题栏。
 
 # 标题栏简单的颜色自定义
-如果只想改变颜色，那么这是非常简单的！只需要一些代码就可以搞定。
+如果只想改变标题栏颜色是非常简单的！只需要一些代码就可以搞定。
 下面是一个例子：
 >此代码可放在应用的 OnLaunched 方法 (App.xaml.cs) 中、对 Window.Activate 的调用的后面，或应用的第一页中。
 
-	// using Windows.UI.ViewManagement;
+	//要添加以下引用 
+	//using Windows.UI.ViewManagement;
     
 	var titleBar = ApplicationView.GetForCurrentView().TitleBar;
     
@@ -43,7 +44,7 @@ UWP的标题栏一般情况下有**五个**元素，分别是：
 * 按钮背景颜色不会应用于关闭按钮的悬停和按下状态。 关闭按钮始终对这些状态使用系统定义的颜色。
 * 使用系统后退按钮时，按钮颜色属性会应用于该按钮。
 * 将颜色属性设置为 null 会将其重置为默认的系统颜色。
-* 你无法设置透明色。 颜色的 alpha 通道会被忽略。
+* 无法设置透明色。 颜色的 alpha 通道会被忽略。
 
 另外，Windows 为用户提供了将选定的主题色应用于标题栏的选项。 如果要设置任何标题栏颜色，建议显式设置所有颜色。 这可以确保不存在因用户定义的颜色设置而出现意外的颜色组合。
 
@@ -63,12 +64,14 @@ UWP的标题栏一般情况下有**五个**元素，分别是：
     titleBar.ButtonBackgroundColor = Colors.Transparent;
     titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
 
-这个操作不会影响到系统的默认按钮，但是应用标题会受到影响，因此需要使用 CaptionTextBlockStyle 为应用程序标题绘制标题栏的TextBlock。
+这个操作不会影响到系统的默认按钮，但是应用标题会受到影响，因此需要使用 CaptionTextBlockStyle 的样式为应用程序标题绘制标题栏的TextBlock。
 
 
 	<TextBlock Text="应用标题" 
                Style="{StaticResource CaptionTextBlockStyle}" 
                x:Name="TitleText"
-         />
+	/>
 
 关于更多自定义操作，请访问微软官方文档[标题栏自定义](https://docs.microsoft.com/zh-cn/windows/uwp/design/shell/title-bar)
+
+-2020年6月27日第二次更新-改为*UWP笔记*,并修饰一些语句
