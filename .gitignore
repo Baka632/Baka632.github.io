@@ -40,3 +40,4 @@ _site
 # Bundler
 /.bundle
 /vendor/bundle
+/.vs
