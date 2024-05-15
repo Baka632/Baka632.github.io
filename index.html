@@ -9,46 +9,49 @@
         * {
             text-align: center;
         }
+
+        .construction-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            border: 2px gray solid;
+            padding: 5px;
+            margin: 5px auto;
+            width: 300px;
+        }
     </style>
     <script>
         function alertByOperatorName(name) {
-            if (name == null || name.trim().length === 0)
-            {
+            if (name == null || name.trim().length === 0) {
                 alert("你输入了空白字符串...");
                 return;
             }
-            
+
             var operatorName = name.trim();
 
             if (operatorName == "U-Official" || operatorName == "尤里卡") {
                 alert("尤里卡~尤里卡~\n有品位的！");
             }
-            else if (operatorName == "迷迭香")
-            {
+            else if (operatorName == "迷迭香") {
                 alert("可爱猫猫~\n有品位的！");
             }
-            else if (operatorName == "阿米娅")
-            {
+            else if (operatorName == "阿米娅") {
                 alert("呜呜呜好可爱的阿米娅！\n有品位的！");
             }
-            else if (operatorName == "青枳")
-            {
+            else if (operatorName == "青枳") {
                 alert("好欸是青枳！\n有品位的！");
             }
-            else if (operatorName == "深靛")
-            {
+            else if (operatorName == "深靛") {
                 alert("深靛蛇蛇！\n有品位的！");
             }
-            else if (operatorName == "远牙")
-            {
+            else if (operatorName == "远牙") {
                 alert("是远牙！她从千里之外命中了我的心！\n有品位的！");
             }
-            else if (operatorName == "玛恩纳")
-            {
+            else if (operatorName == "玛恩纳") {
                 alert("虾头🦐玛宝男");
             }
-            else
-            {
+            else {
                 alert(operatorName + "~" + operatorName + "~");
             }
         }
@@ -57,17 +60,27 @@
 
 <body>
     <h1>恭喜，恭喜，你已经到达了 Baka632 的个人网站</h1>
-    <img src="eureka.png" alt="我可爱的尤里卡" height="10%" width="10%" />
+    <img src="eureka.png" alt="我可爱的尤里卡" height="150px" width="150px" />
     <figcaption>放一张可爱的尤里卡图！</figcaption>
     <hr />
-    <div>是的，这里就是这么简陋......<br />不过终有一天，这里会变得好看的！<br />或者来玩个简单的游戏？</div>
+    <div>
+        <div class="construction-box">
+            <img style="margin-right: 5px;" width="40px" height="40px" src="construction.svg" alt="" />
+            <span>网站正在建设中......</span>
+        </div>
+        是的，这里就是这么简陋......
+        <br />
+        不过终有一天，这里会变得好看的！
+        <br />
+        或者来玩个简单的游戏？
+    </div>
     <hr />
 
     <div>
         <label for="operatorTextbox">你最喜欢的方舟干员是谁？</label>
         <br />
         <input id="operatorTextbox" type="text" style="text-align: left;" />
-        <button onclick="alertByOperatorName(operatorTextbox.value)">确定</button>
+        <button type="button" onclick="alertByOperatorName(operatorTextbox.value)">确定</button>
     </div>
 </body>
 
