@@ -1,3 +1,3 @@
-# Baka632 的网站
+# ~~baka632.github.io~~
 
-网站地址：[https://baka632.com/](https://baka632.com/)
+不再使用此仓库，请访问：[https://baka632.com/](https://baka632.com/)
